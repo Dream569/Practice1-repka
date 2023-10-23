@@ -42,7 +42,7 @@ namespace Practice1
                 if (K > 0)//подходит ли число условию
                 {
                     string manyvalue; //объявляем переменную
-                    ClassLibrary1.Class1.GetSum(K, out int sum, out int kol, out manyvalue); //используем библиотеку классов
+                    WpfLibrary1.Class1.GetSum(K, out int sum, out int kol, out manyvalue); //используем библиотеку классов
                     zn2.Text = zn2.Text + " " + manyvalue.ToString(); //выводим сгенерированные числа
                     zn3.Text = sum.ToString(); //выводим сумму
                     zn4.Text = kol.ToString(); //выводим кол-во сгенерированных чисел
@@ -60,6 +60,10 @@ namespace Practice1
             zn2.Clear();
             zn3.Clear();
             zn4.Clear();
+        }
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Купил мужик шляпу, а она ему как раз");
         }
     }
 }

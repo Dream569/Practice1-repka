@@ -24,5 +24,6 @@
         <TextBox x:Name="zn4" HorizontalAlignment="Left" Margin="289,200,0,0" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" MaxLength="9" IsEnabled="False"/>
         <Button Content="Вывести числа" HorizontalAlignment="Left" Height="23" Margin="19,113,0,0" VerticalAlignment="Top" Width="110" Click="Button1_Click" IsDefault="True"/>
         <Button Content="очистить" HorizontalAlignment="Left" Height="23" Margin="19,141,0,0" VerticalAlignment="Top" Width="110" Click="Button2_Click" IsDefault="True"/>
+        <Button Content="анекдот" HorizontalAlignment="Left" Height="23" Margin="19,169,0,0" VerticalAlignment="Top" Width="110" Click="Button3_Click" IsDefault="True"/>
     </Grid>
 </Window>
